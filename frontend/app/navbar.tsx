@@ -1,17 +1,12 @@
 import Link from 'next/link';
-import Home from './Home';
-import Experiences from './Experiences';
-import Projects from './Projects';
-import Contacts from './Contacts';
-
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 flex bg-gray-200 h-15 w-full justify-center">
+        <nav className="fixed top-0 left-0 right-0 z-50 flex h-15 w-full justify-center" style={{background: "#2E2E2E"}}>
             <div className="flex justify-between items-center gap-6">
-                <Link href="/" className="text-white ">Home</Link>
-                <Link href="/Experiences" className="text-white">Experiences</Link>
-                <Link href="/Projects" className="text-white">Projects</Link>
-                <Link href="/Contact" className="text-white">Contact</Link>
+                <Link href="#home" scroll={true} className="text-white">Home</Link>&nbsp;
+                <Link href="#experiences" className="text-white">Experiences</Link>&nbsp;
+                <Link href="#projects" className="text-white">Projects</Link>&nbsp;
+                <Link href="#contact" className="text-white">Contact</Link>&nbsp;
             </div>
         </nav>
     );
