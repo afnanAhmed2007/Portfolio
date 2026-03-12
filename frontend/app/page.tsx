@@ -3,6 +3,7 @@ import Home from './Home';
 import Experiences from './Experiences';
 import {Projects} from './Projects';
 import Contacts from './Contacts';
+import Resume from './resume'
 
 export default function Page() {
   return (
@@ -12,6 +13,8 @@ export default function Page() {
       <Experiences/>
       <Projects/>
       <Contacts/>
+      <Resume/>
+
     </div>
   );
 }
