@@ -12,8 +12,8 @@ export default function Page() {
       <Home/>
       <Experiences/>
       <Projects/>
-      <Contacts/>
       <Resume/>
+      <Contacts/>
 
     </div>
   );

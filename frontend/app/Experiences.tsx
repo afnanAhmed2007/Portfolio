@@ -78,7 +78,7 @@ const Experiences = () => {
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 1, ease: "easeIn" } }}>
                 <motion.div whileHover={{ scale: 1.05 }} onHoverStart={() => console.log('hover started!')}>
                     <div className="bg-gray-100 gap-6" style={{width: "800px", padding: "28px 32px", height: "275px", boxShadow: "0 10px 12px rgba(0,0,0,0.08)", border: "1px solid #e5e7eb", borderRadius: 16,  background: "linear-gradient(#ffffff, #65c2c9)"}} >
-                                <h1  className="text-xl font-medium" style={{fontFamily: 'Inter', height: "15px", display: "flex", justifyContent: "flex-start", alignItems: "center", color: "black"}}>Software Engineer Intern</h1>
+                                <h1  className="text-xl font-medium" style={{fontFamily: 'Inter', height: "15px", display: "flex", justifyContent: "flex-start", alignItems: "center", color: "black"}}>Coding Instructor</h1>
                                 <h2 style={{fontFamily: 'Inter', height: "15px", display: "flex", marginTop: "10px", marginBottom: "20px", justifyContent: "flex-start", alignItems: "center", color: "black"}}>Code Ninjas</h2>
                                 <div className="w-full flex items-center gap-5">
                                     <div className="w-[15%] items-center" style={{color: "black"}}>
