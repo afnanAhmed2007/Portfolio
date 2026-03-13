@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 
 const Home = () => {
     return (
-        <section id = "Home">
+        <section id = "about">
             <div className="flex justify-center " style={{marginTop: "200px"}} >
                 <div className="flex items-center max-w-[900px] gap-8">
                     <motion.div initial={{ x: -50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}>

@@ -3,7 +3,7 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 flex h-15 w-full justify-center" style={{background: "#2E2E2E", boxShadow: "0 10px 20px rgba(0,0,0,0.08)"}}>
             <div className="flex justify-between items-center gap-6">
-                <Link href="#home" scroll={true} className="text-white">Home</Link>&nbsp;
+                <Link href="#about" scroll={true} className="text-white">About</Link>&nbsp;
                 <Link href="#experiences" className="text-white">Experiences</Link>&nbsp;
                 <Link href="#projects" className="text-white">Projects</Link>&nbsp;
                  <Link href="#resume" className="text-white">Resume</Link>&nbsp;
